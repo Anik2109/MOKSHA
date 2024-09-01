@@ -1,3 +1,7 @@
+.header-logo img {
+    width: 150px;  /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
 :root {
     --primary-bg: #FFF8ED;
     --secondary-bg: #fff;
