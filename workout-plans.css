@@ -1,3 +1,7 @@
+.header-logo img {
+    width: 150px;  /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio */
+}
 :root {
     --primary-bg: #FFF8ED;
     --secondary-bg: #fff;
@@ -244,11 +248,16 @@ button:hover {
 }
 
 
-.testimonials {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: transparent; /* Ensure it's transparent if you want the background image visible */
+.testimonial-image {
+    width: 80px;  /* Small circle size */
+    height: 80px; /* Ensure width and height are equal */
+    border-radius: 50%; /* Makes the image a circle */
+    object-fit: cover; /* Ensures the image covers the circle properly */
+    margin: 0 auto; /* Center the image if needed */
+    display: block; /* Ensure it acts as a block-level element */
 }
+
+
 .testimonials h2 {
     margin-bottom: 20px;
     color: var(--primary-text-color);
